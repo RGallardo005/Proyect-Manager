@@ -44,7 +44,7 @@ public class Tarea {
     }
 
     public void addcomentario(Comentarios Comentarios){ 
-        Listcomentario.add(new Comentarios);
+        Listcomentario.add( Comentarios);
     }
     public Tarea(int id, String description, Boolean completed, user user, ArrayList<Comentarios> Listcomentario) {
         this.id = id;
@@ -55,7 +55,7 @@ public class Tarea {
     }
 
     public Tarea() {
-        this(0,"",null,null,new ArrayList())
+        this(0,"",null,null,new ArrayList());
     }
 
     
